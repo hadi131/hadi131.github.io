@@ -1,0 +1,268 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: repeat-y;
+    background-position: top;
+    background-size: 100%;
+}
+
+.logo_bar {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 120px;
+    width: 180px;
+    padding-top: 50px;
+}
+
+.logo img {
+    height: 70%;
+    /*width: 100%;*/
+    padding-left: 45px;
+}
+
+
+/*navbar*/
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #B22222;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+}
+
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/*navbar*/
+
+.fas {
+    color: #B22222;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.tmac {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tmac h1 {
+    font-family: "Olde English Regular";
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: -5px;
+}
+
+.mac {
+    height: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.art {
+    padding-top: 85px;
+}
+
+.mac h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+    font-family: "Olde English Regular";
+}
+
+.center_sec {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+.music h1 {
+    color: #B22222;
+}
+
+.center {
+    height: 220px;
+    width: 220px;
+}
+
+.center img {
+    width: 100%;
+    height: 100%;
+}
+
+.cabinet h1 {
+    font-family: "Olde English Regular";
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: -5px;
+}
+
+.cabinet {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.cabinet_team {
+    height: 800px;
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.president {
+    height: 300px;
+    width: 230px;
+    margin-top: 40px;
+}
+
+.size img {
+    width: 100%;
+    height: 100%;
+}
+
+.team_members {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.team1 {
+    height: 300px;
+    width: 230px;
+    margin-top: 40px;
+    background-color: rgb(99, 99, 102);
+}
+
+.m1 {
+    margin-right: 50px;
+}
+
+.m3 {
+    margin-left: 50px;
+}
+
+.center_sec2 {
+    margin-top: 250px;
+}
+
+.registration {
+    height: 450px;
+    width: 100%;
+}
+
+input {
+    width: 30%;
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.registration p {
+    color: white;
+    font-size: 20px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background: #B22222;
+    color: black;
+}
+
+.footer {
+    height: 20px;
+    color: #B22222;
+    background: black;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:786px) {
+    .team_members,
+    .team_members1 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .reg {
+        margin-top: 1200px;
+        margin-bottom: 30px;
+    }
+    .m3 {
+        margin-left: 0px;
+    }
+    .m {
+        margin-left: 50px;
+    }
+    form input {
+        width: 60%;
+        padding: 15px;
+    }
+    .registration p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
+    body {
+        background-color: black;
+        background-image: none;
+    }
+}
