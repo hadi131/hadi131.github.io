@@ -15,10 +15,10 @@
 <body>
 
     <div id="loader">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="l-ul">
+            <li class="l-li"></li>
+            <li class="l-li"></li>
+            <li class="l-li"></li>
         </ul>
     </div>
     <section class="main">
@@ -30,6 +30,9 @@
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
+
+
+
             <div class="logo">
                 <img src="TMAC_LOGO.png">
             </div>
@@ -37,7 +40,16 @@
                 <i class="fas fa-phone-alt"></i>
             </div>
 
+
+
         </div>
+        <nav class="nav nav-bar ">
+            <ul>
+                <li class="menu">Home</li>
+                <li class="menu">Cabinet Team</li>
+                <li class="menu">Registration</li>
+            </ul>
+        </nav>
 
     </section>
     <section>
@@ -64,7 +76,7 @@
     </section>
 
     <section>
-        <div class="cabinet">
+        <div class="cabinet cm">
             <h1>Cabinet Members</h1>
         </div>
     </section>
@@ -161,19 +173,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
-
-    <script>
-        $(window).on("load", function() {
-            // setTimeout(removeloader, 200);
-            $("#loader").fadeOut(2000);
-        });
-    </script>
-
+    <script src="project.js"></script>
 </body>
 
 </html>
