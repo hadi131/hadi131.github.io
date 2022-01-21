@@ -10,6 +10,28 @@ body {
     background-size: 100%;
 }
 
+.nav {
+    display: none;
+    height: 0x;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50x;
+    width: 100%;
+    /* background: white;  */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(175, 42, 42);
+    font-family: "Olde English Regular";
+}
+
 .logo_bar {
     height: 120px;
     width: 100%;
@@ -265,9 +287,12 @@ form button {
         background-color: black;
         background-image: none;
     }
+    .cm h1 {
+        font-size: 40px;
+    }
 }
 
-ul li {
+.l-ul li {
     height: 25px;
     width: 25px;
     background-color: #B22222;
@@ -278,19 +303,19 @@ ul li {
     position: relative;
 }
 
-ul li:nth-child(1) {
+.l-ul li:nth-child(1) {
     animation: first 2s infinite;
 }
 
-ul li:nth-child(2) {
+.l-ul li:nth-child(2) {
     animation: second 2s infinite;
 }
 
-ul li:nth-child(3) {
+.l-ul li:nth-child(3) {
     animation: third 2s infinite;
 }
 
-ul {
+.l-ul {
     display: flex;
 }
 
