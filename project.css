@@ -266,3 +266,92 @@ form button {
         background-image: none;
     }
 }
+
+ul li {
+    height: 25px;
+    width: 25px;
+    background-color: #B22222;
+    border: 2px solid black;
+    border-radius: 50%;
+    list-style: none;
+    margin: 6px;
+    position: relative;
+}
+
+ul li:nth-child(1) {
+    animation: first 2s infinite;
+}
+
+ul li:nth-child(2) {
+    animation: second 2s infinite;
+}
+
+ul li:nth-child(3) {
+    animation: third 2s infinite;
+}
+
+ul {
+    display: flex;
+}
+
+#loader {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes first {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(2);
+    }
+    40% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes second {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(2);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes third {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
