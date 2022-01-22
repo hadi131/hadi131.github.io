@@ -397,3 +397,6 @@ img {
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
 }
+$(document).bind("contextmenu",function(e){
+  return false;
+    });
