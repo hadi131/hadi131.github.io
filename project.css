@@ -380,3 +380,12 @@ form button {
         transform: scale(1);
     }
 }
+
+.selection {
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
