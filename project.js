@@ -1,6 +1,5 @@
 function myFunction(x) {
     x.classList.toggle("change");
-
 }
 
 $(document).ready(function() {
@@ -9,11 +8,15 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(".container").click(function() {
         $(".nav-bar").toggle("slow");
+
     });
 
 });
 
+$(document).bind("contextmenu", function(e) {
+    return false;
+});
+
 $(window).on("load", function() {
-    // setTimeout(removeloader, 200);
     $("#loader").fadeOut(2000);
 });
