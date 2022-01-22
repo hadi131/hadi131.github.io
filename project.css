@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("background.png");
     background-repeat: repeat-y;
@@ -54,6 +58,11 @@ body {
 
 
 /*navbar*/
+
+.nav ul li a {
+    text-decoration: none;
+    color: #B22222;
+}
 
 .container {
     display: inline-block;
@@ -227,13 +236,13 @@ body {
 }
 
 .registration {
-    height: 450px;
+    height: 510px;
     width: 100%;
 }
 
 input {
-    width: 30%;
-    padding: 10px;
+    width: 40%;
+    padding: 15px;
 }
 
 form {
@@ -242,14 +251,16 @@ form {
 
 .registration p {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 form button {
-    padding: 10px 20px;
+    padding: 11px 35px;
     border: none;
     background: #B22222;
     color: black;
+    font-family: "Olde English Regular";
+    font-size: 25px;
 }
 
 .footer {
@@ -395,8 +406,4 @@ img {
     -webkit-user-select: none;
     -moz-user-select: none;
     -webkit-touch-callout: none;
-    -webkit-tap-highlight-color: transparent;
 }
-$(document).bind("contextmenu",function(e){
-  return false;
-    });
