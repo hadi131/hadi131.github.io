@@ -58,7 +58,7 @@ body {
 .container {
     display: inline-block;
     cursor: pointer;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 .bar1,
